@@ -292,6 +292,7 @@ footer p {
 }
     .head_inner {
         gap: 10px;
+        align-items: flex-start;
         justify-content: left;
 }
 
@@ -304,9 +305,13 @@ footer p {
         margin-left: 218%;
     }
 
+    body.switchMode .head_inner nav ul li.switch a::after {
+        left: 25px;
+    }
+
     .header_body_inner .left .title {
-        padding-top: 60%;
         font-size: 40px;
+        padding-top: 60%;
 }
     .header_body_inner .right img {
         content: "";
