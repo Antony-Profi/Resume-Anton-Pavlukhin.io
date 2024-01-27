@@ -36,8 +36,10 @@ header {
 }
 
 .header_head {
-    position: relative;
+    position: fixed;
     background: #191819;
+    width: 100%;
+    z-index: 100;
 }
 
 .head_inner {
@@ -136,6 +138,7 @@ body.switchMode .head_inner nav ul li.switch a::after {
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
     transition: all .5s ease;
+    padding-top: 7%;
 }
 
 body.switchMode .header_body_inner .left .title {
@@ -160,8 +163,8 @@ a.btn {
     border-radius: 50%;
     content: "";
     position: absolute;
-    bottom: 39%;
-    left: 50%;
+    bottom: 33%;
+    left: 57%;
     width: 35%;
 }
 
@@ -300,6 +303,7 @@ footer p {
         width: 50px;
         margin-left: 218%;
     }
+
     .header_body_inner .left .title {
         padding-top: 60%;
         font-size: 40px;
@@ -315,5 +319,25 @@ footer p {
 
     .container {
         padding: 10px 15px;
+    }
+}
+
+@media (max-width: 800px) {
+    .header_body_inner .left .title {
+        font-size: 46px;
+        padding-top: 120%;
+    }
+
+    .header_body_inner .right img {
+        border-radius: 50%;
+        content: "";
+        position: absolute;
+        bottom: 60%;
+        left: 19%;
+        width: 60%;
+    }
+
+    .section_title {
+        margin-top: 40px;
     }
 }
