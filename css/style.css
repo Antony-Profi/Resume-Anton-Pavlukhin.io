@@ -279,3 +279,41 @@ footer p {
     text-align: center;
     color: #ccc;
 }
+
+@media (max-width: 550px) {
+    header {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+}
+    .head_inner {
+        gap: 10px;
+        justify-content: left;
+}
+
+    .head_inner nav ul {
+        flex-direction: column;
+}
+
+    .head_inner nav ul li.switch a {
+        width: 50px;
+        margin-left: 218%;
+    }
+    .header_body_inner .left .title {
+        padding-top: 60%;
+        font-size: 40px;
+}
+    .header_body_inner .right img {
+        content: "";
+        position: absolute;
+        border-radius: 50%;
+        bottom: 60%;
+        left: 8%;
+        width: 83%;
+    }
+
+    .container {
+        padding: 10px 15px;
+    }
+}
