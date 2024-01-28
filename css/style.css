@@ -283,6 +283,43 @@ footer p {
     color: #ccc;
 }
 
+@media (max-width: 1024px) {
+    .header_body_inner .left .title {
+        font-size: 46px;
+        margin-top: 20%;
+    }
+
+    .header_body_inner .right img {
+        bottom: 41%;
+        left: 53%;
+        width: 45%;
+    }
+
+    .section_title {
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 800px) {
+    .header_body_inner .left .title {
+        font-size: 60px;
+        margin-top: 100%;
+    }
+
+    .header_body_inner .right img {
+        border-radius: 50%;
+        content: "";
+        position: absolute;
+        bottom: 50%;
+        left: 14%;
+        width: 70%;
+    }
+
+    section {
+        margin-top: 16%;
+    }
+}
+
 @media (max-width: 550px) {
     header {
         position: relative;
@@ -313,12 +350,9 @@ footer p {
         padding-top: 60%;
 }
     .header_body_inner .right img {
-        content: "";
-        position: absolute;
-        border-radius: 50%;
         bottom: 40%;
-        left: 8%;
-        width: 83%;
+        left: 6%;
+        width: 85%;
     }
 
     .container {
@@ -326,26 +360,6 @@ footer p {
     }
 
     .section_title {
-        margin-top: 70%;
+        margin-top: 60%;
     }
-}
-
-@media (max-width: 800px) {
-    .header_body_inner .left .title {
-        font-size: 50px;
-        padding-top: 120%;
-    }
-
-    .header_body_inner .right img {
-        border-radius: 50%;
-        content: "";
-        position: absolute;
-        bottom: 50%;
-        left: 14%;
-        width: 70%;
-    }
-
-    /* .section_title {
-        margin-top: 40px;
-    } */
 }
